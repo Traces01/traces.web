@@ -5,6 +5,22 @@
     
 }
 
+@media (max-width: 600px) {
+            body {
+                font-size: 0.9em;
+            }
+
+            header {
+                padding: 0.5em;
+            }
+        }
+
+        /* 图片样式，设置最大宽度为100%，使其自适应屏幕大小 */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
 header{
     background-color: rgb(71, 159, 179);
     min-height: 7vw;
