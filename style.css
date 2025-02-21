@@ -118,9 +118,11 @@ main .section1 h2 {
 
 .image1{
   width: 30vw;
+  object-fit: contain;
 }
 .image{
   width: 30vw;
+  object-fit: contain;
 }
 
 .destroy {
