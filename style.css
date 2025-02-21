@@ -116,8 +116,11 @@ main .section1 h2 {
   color: rgb(22, 134, 159);
 }
 
-.image1 .image2 {
-  width: 400px;
+.image1{
+  width: 30vw;
+}
+.image{
+  width: 30vw;
 }
 
 .destroy {
@@ -131,10 +134,10 @@ main .section1 h2 {
 }
 
 .image3 {
-  width: 470px;
+  width: 30vw;
 }
 .image4 {
-  width: 470px;
+  width: 30vw;
 }
 
 .full {
