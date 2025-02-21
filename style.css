@@ -1,5 +1,5 @@
 * {
-  padding: 0 1vw;
+  padding: 0;
   margin: 0;
   max-width: 100%;
 }
@@ -38,37 +38,134 @@ header a:hover {
   text-decoration: underline;
 }
 
-.face{
-    min-height: 700px;
-    background-image: url("https://gss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/f703738da9773912b309b3cafd198618367ae269.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: multiply;
+.face {
+  min-height: 700px;
+  background-image: url("01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(9, 39, 65);
 }
 
+.line {
+  margin: 0 0 60px 0;
+  display: flex;
+  height: 60px;
+  background-color: rgb(22, 134, 159);
+  color: rgb(244, 247, 249);
+  font-size: 20px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
 
+main .section1 {
+  padding: 15px;
+}
 
+main .section1 h2 {
+  font-size: 30px;
+  color: rgb(22, 134, 159);
+}
 
+.section1 {
+  margin: 0 0 60px 0;
+}
+.JianJie {
+  padding: 10px;
+  font-size: 19px;
+  color: rgb(22, 134, 159);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.section2 {
+  margin: 25px;
+}
+.section2 h3 {
+  font-size: 23px;
+  color: rgb(22, 134, 159);
+}
 
 .XingNeng {
+  margin: 10px 20px 50px 20px;
   display: flex;
+  justify-content: space-between;
+  color: rgb(22, 134, 159);
+  padding: 10px;
+  font-size: 19px;
+  border: 2px rgb(22, 134, 159) solid;
+}
+
+.image0 {
+  width: 600px;
+}
+
+.unicorn {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 15px;
+  padding: 10px;
+  border: 2px rgb(22, 134, 159) solid;
+  font-size: 18px;
+  color: rgb(22, 134, 159);
+}
+
+.image1 .image2 {
+  width: 400px;
+}
+
+.destroy {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 15px;
+  padding: 10px;
+  border: 2px rgb(22, 134, 159) solid;
+  font-size: 18px;
+  color: rgb(22, 134, 159);
+}
+
+.image3 {
+  width: 470px;
+}
+.image4 {
+  width: 470px;
+}
+
+.full {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 15px;
+  padding: 10px;
+  border: 2px rgb(22, 134, 159) solid;
+  font-size: 18px;
+  color: rgb(22, 134, 159);
+}
+
+.image5 {
+  width: 470px;
+}
+.image6 {
+  width: 470px;
+}
+
+.back {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.back a {
+  text-decoration: none;
+  color: rgb(49, 181, 201);
+}
+
+.back a:hover {
+  text-decoration: underline;
 }
