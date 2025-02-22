@@ -118,7 +118,7 @@ main .section1 h2 {
 
 .image1,
 .image2 {
-  width: 470px;
+  width: 30vw;
   object-fit: contain;
 }
 
